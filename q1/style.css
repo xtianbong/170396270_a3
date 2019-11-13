@@ -1,0 +1,30 @@
+body{
+    background-color: #fb9bcb;
+    text-align: center;
+    font-family: cursive;
+}
+.titles{
+    position: fixed;
+    top:50%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.button{
+    display:inline-block;
+    border-style: double;
+    border-width:10px;
+    border-color: blueviolet;
+    border-width: 5px;
+    background: #d24a88;
+    border-radius: 12px;
+    color:white;
+    font-family: cursive;
+    text-decoration:none;
+    width:fit-content;
+    height: fit-content;
+}
+a{
+    text-decoration:none;
+}

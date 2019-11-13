@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Arial, sans-serif;
+}
+img {
+    width:293px;
+    height:293px;
+}
+img .pfp{
+    width:150px;
+    height:150px;
+}
+h1{
+    font-size:28px;
+}
+
+/*mobile*/
+[class*="col-"]{
+    width:100%;
+}
+
+/*tablet*/
+@media only screen and (min-width:600px){
+    body{
+        width:400px;
+    }
+}
+
+/*desktop*/
+@media only screen and (min-width:768px){
+    body{
+        width:935px;
+        margin-left:25%;
+        margin-right:33%;
+    }
+    img{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+}
